@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "myfirst",
+    "slug": "myfirst",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/famza-icon.jpeg",
+    "splash": {
+      "image": "./assets/famza-logo(clear).png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/famza-icon.jpeg",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
